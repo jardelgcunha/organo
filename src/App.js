@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Banner from './componentes/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
-import Rodape from './componentes/Rodape';
+import Rodape from './componentes/Footer';
 
 function App() {
 
@@ -54,7 +54,6 @@ function App() {
   return (
     <div className="App">
       <Banner />
-
       <Formulario
         times={times.map(time => time.nome)}
         aoColaboradorCadastrado={
